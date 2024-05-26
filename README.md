@@ -38,3 +38,6 @@ function incluiPlacar() { stroke(255); textAlign(CENTER); textSize(16); fill(col
 function marcaPonto() { if (xBolinha > 590) { meusPontos += 1; ponto.play(); } if (xBolinha < 10) { pontosDoOponente += 1; ponto.play(); } }
 
 function preload() { trilha = loadSound("trilha.mp3"); ponto = loadSound("ponto.mp3"); raquetada = loadSound("raquetada.mp3"); }
+
+
+<p xmlns:cc="http://creativecommons.org/ns#" >Este trabalho está licenciado sob <a href="https://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY 4.0<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom ;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical -align:texto inferior;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""></a></p>
